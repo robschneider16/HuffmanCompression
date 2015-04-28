@@ -1,4 +1,4 @@
-# TO RUN
+----------------------TO RUN----------------------
 To run This program, Compile HuffmanCompression.java
 
 javac HuffmanCompression.java
@@ -14,7 +14,7 @@ will take all the strings that follow the execution command, and compress that s
 
 
 
-# DISCRIPTION OF CODE
+----------------DISCRIPTION OF CODE----------------
 HuffmanCompression contains the main class that does the following in order:
 -gets the text it wants to compress
 -iterates through the text, poping the first char off the text at each iteration
@@ -35,10 +35,10 @@ is a custom object that contains representations of
 -Root
 -encoding
 
-# Discoveries
+----------------------Discoveries---------------------
 I initially used a hash-table to represent characters and their corresponding frequencies. However I figured out that you have some trouble sorting hash tables. So I created a custom data-structure to represent a Node. I learned a lot about the Huffman tree encoding. I particularly like how the encoding is unique for whatever input text it compiles. I initially did not know that, until Dr. Iba helped me understand how the Huffman tree gets constructed. It was also nice switching back to another language i advent used in a while. As a result, I feel more comfortable with links/pointers, binary trees, and the Huffman Tree. I have grown my appreciation for the creativity and uniqueness that David Huffman embodied when he developed this efficient algorithm for his information theory course term paper.
 
 
-# Acknowledgements
+--------------------Acknowledgements-------------------
 Thanks to Dr. Iba for aiding me in understanding the Binary Tree / Huffman Tree construction algorithm, and his incite in transversing through the tree to determine the encoding. 
 I distributed the help I recieved to others in the class.
